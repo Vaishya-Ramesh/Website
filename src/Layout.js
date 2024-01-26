@@ -10,6 +10,11 @@ export default function Layout() {
                 <li className='nav-link'><Link to="/about">About</Link></li>
                 <li className='nav-link'><Link to="/contact">Contact</Link></li>
                 <li className='nav-link'><Link to="/service">Services</Link></li>
+                <li className='nav-link'><Link to="/counter">Counter</Link></li>
+                <li className='nav-link'><Link to="/effect">Effect</Link></li>
+                <li className='nav-link'><Link to="/reducer">Reducer</Link></li>
+                <li className='nav-link'><Link to="/footer">Footer</Link></li>
+                <li className='nav-link'><Link to="/callbacks">Callbacks</Link></li>
             </ul>
         </nav>
         <Outlet/>

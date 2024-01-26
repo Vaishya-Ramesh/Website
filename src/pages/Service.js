@@ -3,13 +3,14 @@ import '../css/Service.css';
 export default function Service() {
   return (
     <div>
+      <div className='center'><b>Git Commands</b></div>
         <div className='service'>
-            <div className='service-item'>01</div>
-            <div className='service-item'>02</div>
-            <div className='service-item'>03</div>
-            <div className='service-item'>04</div>
-            <div className='service-item'>05</div>
-            <div className='service-item'>06</div>
+            <div className='service-item'><p>git init</p></div>
+            <div className='service-item'><p>git add .</p></div>
+            <div className='service-item'><p>git commit -u "name"</p></div>
+            <div className='service-item'><p>git remote add origin</p></div>
+            <div className='service-item'><p>git push -u origin master</p></div>
+            <div className='service-item'><p>git status</p></div>
         </div>
     </div>
   )

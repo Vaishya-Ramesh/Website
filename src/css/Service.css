@@ -8,6 +8,13 @@
 .service-item
 {
     background-color: rgb(51, 185, 226);
+    text-align: center;
+}
+.center
+{
+    background-color: rgb(51, 185, 226);
     padding: 10px;
     text-align: center;
+    width: 200px;
+    margin: 0 auto;
 }

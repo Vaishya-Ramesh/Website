@@ -1,11 +1,9 @@
 import React from 'react'
 import Service from './Service'
-export default function 
+export default function Home
 () {
   return (
     <div>
-      <Service/>
-      <Service/>
       <Service/>
     </div>
   )
